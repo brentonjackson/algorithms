@@ -18,4 +18,6 @@ const occurencesOverX = (arr, x) => {
 	return uniqueFilteredArr;
 }
 
+console.log(numOccurences(['l', 'l']))
+
 module.exports = numOccurences;
