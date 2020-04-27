@@ -125,9 +125,7 @@ function mergeArrays(myArray, alicesArray) {
   }
 //   console.log(mergeArrays([1, 5, 13], [4, 5, 6, 35]))
 
-// ********  
-// ******** 
-/** Cafe Order Checker
+/******************************** Cafe Order Checker *****************************************
 Given all three arrays, write a function to check that my service is first-come, first-served.
 All food should come out in the same order customers requested it.
 */
