@@ -1,7 +1,4 @@
 'use strict';
-
-
-
 /*
  * Complete the 'getEmailThreads' function below.
  *
@@ -26,7 +23,6 @@ function getEmailThreads(emails) {
         
         if (loggedEmails.includes(emailData.sender) && loggedEmails.includes(emailData.receiver)) {
             threadPosition++;
-            if ()
             console.log("thread pos: " + threadPosition);
         } else {
             loggedEmails.push(emailData.sender, emailData.receiver);
